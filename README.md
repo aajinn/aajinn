@@ -1,14 +1,14 @@
 <!-- HEADER -->
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=260&section=header&text=Ajin%20Varghese%20Chandy&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Fullstack%20Engineer&descAlignY=60)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=260&section=header&text=Ajin%20Varghese%20Chandy&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=MERN%20Stack%20Developer&descAlignY=60)
 
 ## 👨‍💻 About Me
 
-Full-stack developer focused on building **scalable, production-ready applications**.
+MERN stack developer building **scalable, production-ready web applications**.
 
-- Strong understanding of **system design, data flow, and API architecture**
-- Experience building **end-to-end applications** (frontend → backend → deployment)
-- Focused on **performance, maintainability, and clean abstractions**
-- Prefer **simple solutions that ship fast and scale well**
+- Strong in **React + Next.js frontend architecture**
+- Backend focused on **Node.js, APIs, and system design**
+- Experience with **authentication, data flow, and state management**
+- Focused on **performance, clean code, and maintainability**
 
 ---
 
@@ -21,23 +21,22 @@ Full-stack developer focused on building **scalable, production-ready applicatio
 ## 🛠 Tech Stack
 
 ### Frontend
-- Next.js  
 - React  
+- Next.js  
 - TypeScript  
 - JavaScript  
 - HTML, CSS, Tailwind CSS  
 
 ### Backend
 - Node.js  
-- FastAPI  
+- Express.js  
 - Next.js API Routes  
 - REST APIs  
 
 ### Database & Auth
-- PostgreSQL  
 - MongoDB  
-- Supabase  
-- Prisma  
+- PostgreSQL (basic familiarity)  
+- Supabase (Auth & DB)  
 - JWT / Cookie-based Authentication  
 
 ### Tooling
@@ -46,17 +45,17 @@ Full-stack developer focused on building **scalable, production-ready applicatio
 - Prettier  
 
 ### Deployment
-- AWS  
 - Vercel  
+- AWS (basic)
 
 ---
 
-## 📌 What I Care About
+## 📌 What I Focus On
 
-- Building **real-world usable products**, not just demos  
-- Writing **clean, understandable code** over clever hacks  
-- Designing systems that are **easy to extend and maintain**  
-- Shipping fast, iterating faster  
+- Building **real-world applications**, not just tutorials  
+- Writing **clean, maintainable code**  
+- Designing systems that **scale without breaking**  
+- Shipping fast and iterating based on feedback  
 
 ---
 
