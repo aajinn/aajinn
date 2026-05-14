@@ -1,61 +1,65 @@
 <!-- HEADER -->
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=260&section=header&text=Ajin%20Varghese%20Chandy&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=MERN%20Stack%20Developer&descAlignY=60)
 
-## 👨‍💻 About Me
+![Header](https://capsule-render.vercel.app/api?type=waving\&color=0f172a\&height=260\&section=header\&text=Ajin%20Varghese%20Chandy\&fontSize=58\&fontColor=ffffff\&fontAlignY=35\&desc=Developer%20Building%20Real%20Products\&descAlignY=60)
 
-MERN stack developer building **scalable, production-ready web applications**.
+# 👋 Hey, I'm Ajin
 
-- Strong in **React + Next.js frontend architecture**
-- Backend focused on **Node.js, APIs, and system design**
-- Experience with **authentication, data flow, and state management**
-- Focused on **performance, clean code, and maintainability**
+I enjoy building things on the internet — from small experiments to full products people can actually use.
+
+Most of my time goes into web development, backend systems, AI tools, automation, and turning random ideas into real projects. I like shipping fast, improving constantly, and learning by building.
+
+---
+
+## 🚀 What I Work With
+
+### Frontend
+
+* React
+* Next.js
+* TypeScript
+* JavaScript
+* Tailwind CSS
+* HTML & CSS
+
+### Backend
+
+* Node.js
+* Express.js
+* ASP.NET (learning)
+* REST APIs
+* Authentication Systems
+
+### Database
+
+* MongoDB
+* PostgreSQL
+* Supabase
+
+### Tools & Deployment
+
+* Git & GitHub
+* Vercel
+* AWS (basic)
+* Postman
+* ESLint & Prettier
+
+---
+
+## 📌 Current Focus
+
+* Building real-world products
+* Backend architecture & scalable systems
+* AI-powered web apps and automation
+* Product thinking & user experience
+* Becoming a strong full-stack engineer
 
 ---
 
 ## 🔗 Links
 
-[![GitHub](https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aajinn)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge\&logo=vercel\&logoColor=white)](https://www.ared.dev)
 
----
-
-## 🛠 Tech Stack
-
-### Frontend
-- React  
-- Next.js  
-- TypeScript  
-- JavaScript  
-- HTML, CSS, Tailwind CSS  
-
-### Backend
-- Node.js  
-- Express.js  
-- Next.js API Routes  
-- REST APIs  
-
-### Database & Auth
-- MongoDB  
-- PostgreSQL (basic familiarity)  
-- Supabase (Auth & DB)  
-- JWT / Cookie-based Authentication  
-
-### Tooling
-- Git  
-- ESLint  
-- Prettier  
-
-### Deployment
-- Vercel  
-- AWS (basic)
-
----
-
-## 📌 What I Focus On
-
-- Building **real-world applications**, not just tutorials  
-- Writing **clean, maintainable code**  
-- Designing systems that **scale without breaking**  
-- Shipping fast and iterating based on feedback  
+[![GitHub](https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/aajinn)
 
 ---
 
@@ -65,4 +69,4 @@ MERN stack developer building **scalable, production-ready web applications**.
 
 ---
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=100&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving\&color=0f172a\&height=100\&section=footer)
