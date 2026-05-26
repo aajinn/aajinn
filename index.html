@@ -8,154 +8,325 @@
 
   <meta
     name="description"
-    content="Full Stack Engineer building scalable web applications, backend systems, and AI-powered products using modern JavaScript technologies."
+    content="Full Stack Engineer building scalable backend systems, real-time applications, browser extensions, and AI-powered products."
   />
 
-  <link rel="icon" href="/aajinn/favicon.ico" />
-
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #020617;
+    }
+
+    .glass {
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .gradient-text {
+      background: linear-gradient(to right, #ffffff, #94a3b8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .grid-bg {
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 50px 50px;
+    }
+  </style>
 </head>
 
-<body class="bg-slate-900 text-slate-200 antialiased">
+<body class="text-slate-200 antialiased overflow-x-hidden">
 
-  <!-- HERO -->
-  <header class="border-b border-slate-800">
-    <div class="max-w-5xl mx-auto px-6 py-24 text-center">
+  <!-- BACKGROUND -->
+  <div class="fixed inset-0 grid-bg opacity-30 -z-10"></div>
 
-      <h1 class="text-4xl md:text-5xl font-bold tracking-tight">
-        Ajin Varghese Chandy
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 w-full z-50 border-b border-slate-800/50 bg-slate-950/70 backdrop-blur-xl">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+
+      <h1 class="font-semibold tracking-wide text-white">
+        AJIN
       </h1>
 
-      <p class="text-slate-400 mt-4 text-lg">
-        Full Stack Engineer
-      </p>
+      <div class="hidden md:flex items-center gap-8 text-sm text-slate-400">
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#stack" class="hover:text-white transition">Stack</a>
+        <a href="#projects" class="hover:text-white transition">Projects</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+      </div>
 
-      <p class="max-w-2xl mx-auto text-slate-500 mt-6 leading-relaxed">
-        Building scalable web applications, backend systems, browser extensions,
-        developer tools, and AI-powered products using modern JavaScript technologies.
-      </p>
+    </div>
+  </nav>
 
-      <div class="flex items-center justify-center gap-4 mt-8 flex-wrap">
+  <!-- HERO -->
+  <section class="min-h-screen flex items-center">
 
-        <a
-          href="https://www.ared.dev"
-          class="bg-slate-100 text-slate-900 px-5 py-2 rounded-lg font-medium hover:opacity-90 transition"
-        >
-          Portfolio
-        </a>
+    <div class="max-w-6xl mx-auto px-6 w-full">
 
-        <a
-          href="https://github.com/aajinn"
-          class="border border-slate-700 px-5 py-2 rounded-lg hover:bg-slate-800 transition"
-        >
-          GitHub
-        </a>
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <div>
+
+          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-slate-300 mb-8">
+            <div class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></div>
+            Building products publicly
+          </div>
+
+          <h1 class="text-5xl md:text-7xl font-black leading-tight gradient-text">
+            Full Stack
+            <br />
+            Engineer
+          </h1>
+
+          <p class="text-slate-400 text-lg leading-relaxed max-w-2xl mt-8">
+            I build scalable web applications, backend systems,
+            browser extensions, developer tools, and AI-powered products
+            using modern JavaScript technologies.
+          </p>
+
+          <div class="flex flex-wrap gap-4 mt-10">
+
+            <a
+              href="https://www.ared.dev"
+              class="px-6 py-3 rounded-xl bg-white text-slate-900 font-semibold hover:scale-105 transition"
+            >
+              Portfolio
+            </a>
+
+            <a
+              href="https://github.com/aajinn"
+              class="px-6 py-3 rounded-xl glass hover:bg-slate-800 transition"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="relative">
+
+          <div class="absolute inset-0 bg-blue-500/10 blur-3xl rounded-full"></div>
+
+          <div class="glass rounded-3xl p-8 relative overflow-hidden">
+
+            <div class="absolute top-0 right-0 w-40 h-40 bg-blue-500/10 blur-3xl"></div>
+
+            <div class="space-y-5 relative">
+
+              <div class="flex items-center justify-between">
+                <span class="text-slate-400">Role</span>
+                <span class="font-medium">Full Stack Engineer</span>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span class="text-slate-400">Stack</span>
+                <span class="font-medium">MERN + Next.js</span>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span class="text-slate-400">Focus</span>
+                <span class="font-medium">Scalable Products</span>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span class="text-slate-400">Speciality</span>
+                <span class="font-medium">Backend Systems</span>
+              </div>
+
+            </div>
+
+            <div class="border-t border-slate-800 my-8"></div>
+
+            <div class="space-y-4">
+
+              <div class="glass rounded-xl p-4">
+                ⚡ Real-time collaboration systems
+              </div>
+
+              <div class="glass rounded-xl p-4">
+                🧠 AI-powered developer tools
+              </div>
+
+              <div class="glass rounded-xl p-4">
+                📦 Backend APIs & architecture
+              </div>
+
+              <div class="glass rounded-xl p-4">
+                🚀 Browser extensions & SaaS products
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
 
       </div>
 
     </div>
-  </header>
+
+  </section>
 
   <!-- ABOUT -->
-  <section class="max-w-5xl mx-auto px-6 py-16">
+  <section id="about" class="py-28 border-t border-slate-800">
 
-    <h2 class="text-2xl font-semibold mb-6">
-      About
-    </h2>
+    <div class="max-w-6xl mx-auto px-6">
 
-    <p class="text-slate-400 leading-relaxed max-w-3xl">
-      I enjoy building real-world products with scalable backend architecture,
-      clean APIs, responsive frontend experiences, and modern developer workflows.
-      Most of my learning comes from shipping projects publicly and solving
-      practical engineering problems through hands-on development.
-    </p>
+      <div class="max-w-3xl">
 
-  </section>
+        <p class="text-blue-400 font-medium mb-4">
+          ABOUT
+        </p>
 
-  <!-- TECH STACK -->
-  <section class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800">
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight">
+          Building products,
+          <span class="gradient-text">
+            not tutorial projects.
+          </span>
+        </h2>
 
-    <h2 class="text-2xl font-semibold mb-8">
-      Tech Stack
-    </h2>
+        <p class="text-slate-400 text-lg leading-relaxed mt-8">
+          Most developers stay stuck consuming tutorials endlessly.
+          I learn by shipping products publicly, solving real-world problems,
+          and continuously improving through hands-on development.
+        </p>
 
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        Node.js
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        Express.js
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        React
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        Next.js
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        TypeScript
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        JavaScript
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        MongoDB
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        Mongoose
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        REST APIs
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        WebSockets
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        JWT Auth
-      </div>
-
-      <div class="bg-slate-800 rounded-lg p-4 text-center">
-        Tailwind CSS
       </div>
 
     </div>
 
   </section>
 
-  <!-- CURRENT FOCUS -->
-  <section class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800">
+  <!-- STACK -->
+  <section id="stack" class="py-28 border-t border-slate-800">
 
-    <h2 class="text-2xl font-semibold mb-8">
-      Current Focus
-    </h2>
+    <div class="max-w-6xl mx-auto px-6">
 
-    <div class="grid md:grid-cols-2 gap-4">
+      <div class="flex items-center justify-between mb-14">
 
-      <div class="bg-slate-800/70 border border-slate-700 rounded-xl p-5">
-        Production-ready full stack applications
+        <div>
+          <p class="text-blue-400 font-medium mb-3">
+            TECH STACK
+          </p>
+
+          <h2 class="text-4xl font-bold">
+            Technologies I Use
+          </h2>
+        </div>
+
       </div>
 
-      <div class="bg-slate-800/70 border border-slate-700 rounded-xl p-5">
-        Scalable backend systems & APIs
-      </div>
+      <div class="grid md:grid-cols-3 gap-6">
 
-      <div class="bg-slate-800/70 border border-slate-700 rounded-xl p-5">
-        Real-time collaboration platforms
-      </div>
+        <!-- FRONTEND -->
+        <div class="glass rounded-3xl p-8">
 
-      <div class="bg-slate-800/70 border border-slate-700 rounded-xl p-5">
-        AI-powered developer tools
+          <h3 class="text-2xl font-semibold mb-8">
+            Frontend
+          </h3>
+
+          <div class="flex flex-wrap gap-3">
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              React
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              Next.js
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              TypeScript
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              Tailwind CSS
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              JavaScript
+            </span>
+
+          </div>
+
+        </div>
+
+        <!-- BACKEND -->
+        <div class="glass rounded-3xl p-8">
+
+          <h3 class="text-2xl font-semibold mb-8">
+            Backend
+          </h3>
+
+          <div class="flex flex-wrap gap-3">
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              Node.js
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              Express.js
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              REST APIs
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              WebSockets
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              JWT Auth
+            </span>
+
+          </div>
+
+        </div>
+
+        <!-- DATABASE -->
+        <div class="glass rounded-3xl p-8">
+
+          <h3 class="text-2xl font-semibold mb-8">
+            Database & Tools
+          </h3>
+
+          <div class="flex flex-wrap gap-3">
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              MongoDB
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              Mongoose
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              Docker
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              GitHub
+            </span>
+
+            <span class="px-4 py-2 rounded-full bg-slate-800">
+              Postman
+            </span>
+
+          </div>
+
+        </div>
+
       </div>
 
     </div>
@@ -163,102 +334,149 @@
   </section>
 
   <!-- PROJECTS -->
-  <section class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800">
+  <section id="projects" class="py-28 border-t border-slate-800">
 
-    <h2 class="text-2xl font-semibold mb-8">
-      Featured Projects
-    </h2>
+    <div class="max-w-6xl mx-auto px-6">
 
-    <div class="space-y-6">
+      <p class="text-blue-400 font-medium mb-3">
+        FEATURED WORK
+      </p>
 
-      <div class="bg-slate-800/70 border border-slate-700 rounded-xl p-6">
+      <h2 class="text-4xl font-bold mb-14">
+        Selected Projects
+      </h2>
 
-        <h3 class="text-xl font-semibold">
-          Real-Time Internet Speed Monitor
-        </h3>
+      <div class="grid lg:grid-cols-3 gap-6">
 
-        <p class="text-slate-400 mt-3 leading-relaxed">
-          Chrome Extension with 1,000+ active installs focused on lightweight
-          performance tracking and low resource usage.
-        </p>
+        <!-- CARD -->
+        <div class="glass rounded-3xl p-8 hover:-translate-y-2 transition duration-300">
+
+          <div class="text-4xl mb-6">
+            ⚡
+          </div>
+
+          <h3 class="text-2xl font-semibold">
+            Internet Speed Monitor
+          </h3>
+
+          <p class="text-slate-400 leading-relaxed mt-5">
+            Chrome Extension with 1,000+ installs focused on
+            lightweight performance tracking and low memory usage.
+          </p>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="glass rounded-3xl p-8 hover:-translate-y-2 transition duration-300">
+
+          <div class="text-4xl mb-6">
+            🧠
+          </div>
+
+          <h3 class="text-2xl font-semibold">
+            TaskFlow
+          </h3>
+
+          <p class="text-slate-400 leading-relaxed mt-5">
+            Real-time project management platform built using
+            Next.js, Express.js, MongoDB, and WebSockets.
+          </p>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="glass rounded-3xl p-8 hover:-translate-y-2 transition duration-300">
+
+          <div class="text-4xl mb-6">
+            📦
+          </div>
+
+          <h3 class="text-2xl font-semibold">
+            Backend Systems
+          </h3>
+
+          <p class="text-slate-400 leading-relaxed mt-5">
+            Authentication systems, scalable APIs,
+            automation workflows, and reusable backend architectures.
+          </p>
+
+        </div>
 
       </div>
 
-      <div class="bg-slate-800/70 border border-slate-700 rounded-xl p-6">
+    </div>
 
-        <h3 class="text-xl font-semibold">
-          Backend Systems & APIs
-        </h3>
+  </section>
 
-        <p class="text-slate-400 mt-3 leading-relaxed">
-          Building scalable APIs, authentication systems, reusable backend
-          utilities, and real-time infrastructures using Node.js and MongoDB.
-        </p>
+  <!-- PHILOSOPHY -->
+  <section class="py-28 border-t border-slate-800">
 
-      </div>
+    <div class="max-w-4xl mx-auto px-6 text-center">
 
-      <div class="bg-slate-800/70 border border-slate-700 rounded-xl p-6">
+      <p class="text-blue-400 font-medium mb-4">
+        ENGINEERING PHILOSOPHY
+      </p>
 
-        <h3 class="text-xl font-semibold">
-          TaskFlow
-        </h3>
-
-        <p class="text-slate-400 mt-3 leading-relaxed">
-          Real-time team collaboration platform built using Node.js,
-          Express.js, MongoDB, WebSockets, and Next.js.
-        </p>
-
-      </div>
+      <h2 class="text-5xl font-black leading-tight gradient-text">
+        Ship fast.
+        <br />
+        Stay practical.
+        <br />
+        Build useful things.
+      </h2>
 
     </div>
 
   </section>
 
   <!-- CONTACT -->
-  <section class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800">
+  <section id="contact" class="py-28 border-t border-slate-800">
 
-    <h2 class="text-2xl font-semibold mb-6">
-      Contact
-    </h2>
+    <div class="max-w-4xl mx-auto px-6 text-center">
 
-    <div class="space-y-3 text-slate-400">
+      <p class="text-blue-400 font-medium mb-4">
+        CONTACT
+      </p>
 
-      <p>
-        Email:
+      <h2 class="text-5xl font-bold mb-8">
+        Let's Build Something
+      </h2>
+
+      <p class="text-slate-400 text-lg mb-12">
+        Open to collaborations, products, and engineering opportunities.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-5">
+
         <a
           href="mailto:careerajin@gmail.com"
-          class="text-sky-400 hover:underline"
+          class="glass px-6 py-3 rounded-xl hover:bg-slate-800 transition"
         >
-          careerajin@gmail.com
+          Email
         </a>
-      </p>
 
-      <p>
-        GitHub:
         <a
           href="https://github.com/aajinn"
-          class="text-sky-400 hover:underline"
+          class="glass px-6 py-3 rounded-xl hover:bg-slate-800 transition"
         >
-          github.com/aajinn
+          GitHub
         </a>
-      </p>
 
-      <p>
-        Portfolio:
         <a
           href="https://www.ared.dev"
-          class="text-sky-400 hover:underline"
+          class="glass px-6 py-3 rounded-xl hover:bg-slate-800 transition"
         >
-          ared.dev
+          Portfolio
         </a>
-      </p>
+
+      </div>
 
     </div>
 
   </section>
 
   <!-- FOOTER -->
-  <footer class="border-t border-slate-800 py-6 text-center text-slate-500">
+  <footer class="border-t border-slate-800 py-8 text-center text-slate-500">
     © 2026 Ajin Varghese Chandy
   </footer>
 
