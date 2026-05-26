@@ -1,78 +1,30 @@
-<!-- HEADER -->
+<!-- HERO -->
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=260&section=header&text=Ajin%20Varghese%20Chandy&fontSize=54&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Engineer&descAlignY=60)
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=280&section=header&text=Ajin%20Varghese%20Chandy&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Engineer%20•%20Product%20Builder%20•%20MERN%20Developer&descAlignY=60"
+    width="100%"
+  />
+</p>
 
-# 👋 Hey, I'm Ajin
+<div align="center">
 
-Full Stack Engineer building scalable web applications, backend systems, browser extensions, developer tools, and AI-powered products using the MERN stack.
+# Building products, not tutorial projects.
 
-I enjoy solving real-world problems through software, shipping products publicly, and continuously improving through hands-on development and experimentation.
+Full Stack Engineer focused on scalable backend systems, modern frontend experiences, real-time applications, browser extensions, and AI-powered tools.
 
----
+Most developers stay stuck consuming tutorials.  
+I learn by shipping products publicly, solving actual problems, and improving through iteration.
 
-# 🚀 Tech Stack
-
-## Frontend
-- React
-- Next.js
-- TypeScript
-- JavaScript
-- Tailwind CSS
-
-## Backend
-- Node.js
-- Express.js
-- REST APIs
-- WebSockets
-- JWT Authentication
-
-## Database
-- MongoDB
-- Mongoose
-
-## Tools
-- Git
-- GitHub
-- Docker
-- Postman
+</div>
 
 ---
 
-# 📌 Current Focus
+# ⚡ Engineering Profile
 
-- Building production-ready full stack applications
-- Scalable backend systems & APIs
-- Real-time collaboration platforms
-- AI-powered developer tools
-- Product-focused software engineering
-
----
-
-# 🛠 Featured Work
-
-### ⚡ Real-Time Internet Speed Monitor
-Chrome Extension with 1,000+ active installs focused on lightweight performance tracking and low resource usage.
-
-### 📦 Backend Systems & APIs
-Building scalable APIs, authentication systems, reusable backend utilities, and real-time infrastructures using Node.js and MongoDB.
-
-### 🧠 TaskFlow
-Real-time project management platform built using Node.js, Express.js, MongoDB, WebSockets, and Next.js.
-
----
-
-# 🔗 Links
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white)](https://www.ared.dev)
-
-[![GitHub](https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aajinn)
-
----
-
-# 📈 Contribution Activity
-
-![Contribution Snake](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg)
-
----
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=100&section=footer)
+```bash
+Name        :: Ajin Varghese Chandy
+Role        :: Full Stack Engineer
+Stack       :: MERN + Next.js
+Focus       :: Real-world scalable products
+Speciality  :: Backend architecture & rapid product execution
