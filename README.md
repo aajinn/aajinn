@@ -28,3 +28,10 @@ Role        :: Full Stack Engineer
 Stack       :: MERN + Next.js
 Focus       :: Real-world scalable products
 Speciality  :: Backend architecture & rapid product execution
+```
+
+🌐 Connect
+<p align="center"> <a href="https://www.ared.dev"> <img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" /> </a> <a href="https://github.com/aajinn"> <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" /> </a> </p>
+🐍 Contribution Snake
+<p align="center"> <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" /> </p>
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=120&section=footer" width="100%" /> </p> 
