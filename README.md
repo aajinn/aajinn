@@ -1,12 +1,12 @@
 <!-- HEADER -->
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=260&section=header&text=Ajin%20Varghese%20Chandy&fontSize=54&fontColor=ffffff&fontAlignY=35&desc=Backend-Focused%20Full%20Stack%20Developer&descAlignY=60)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=260&section=header&text=Ajin%20Varghese%20Chandy&fontSize=54&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Engineer&descAlignY=60)
 
 # 👋 Hey, I'm Ajin
 
-Backend-focused full stack developer building real-world products with ASP.NET Core, React, and Next.js.
+Full Stack Engineer building scalable web applications, backend systems, browser extensions, developer tools, and AI-powered products using the MERN stack.
 
-I enjoy creating scalable web applications, backend systems, browser extensions, and developer tools. Most of my learning comes from shipping projects publicly and solving real-world problems through hands-on development.
+I enjoy solving real-world problems through software, shipping products publicly, and continuously improving through hands-on development and experimentation.
 
 ---
 
@@ -20,28 +20,31 @@ I enjoy creating scalable web applications, backend systems, browser extensions,
 - Tailwind CSS
 
 ## Backend
-- ASP.NET Core
-- ASP.NET MVC
+- Node.js
+- Express.js
 - REST APIs
-- EF Core
-- SignalR
+- WebSockets
+- JWT Authentication
 
 ## Database
-- SQL Server
 - MongoDB
+- Mongoose
 
 ## Tools
 - Git
 - GitHub
+- Docker
+- Postman
 
 ---
 
 # 📌 Current Focus
 
-- Building production-ready full-stack applications
-- Backend systems & scalable APIs
+- Building production-ready full stack applications
+- Scalable backend systems & APIs
 - Real-time collaboration platforms
-- Product-focused software development
+- AI-powered developer tools
+- Product-focused software engineering
 
 ---
 
@@ -50,11 +53,11 @@ I enjoy creating scalable web applications, backend systems, browser extensions,
 ### ⚡ Real-Time Internet Speed Monitor
 Chrome Extension with 1,000+ active installs focused on lightweight performance tracking and low resource usage.
 
-### 📦 MongooseNet
-Reusable .NET NuGet package for schema-flexible MongoDB data handling in modern C# applications.
+### 📦 Backend Systems & APIs
+Building scalable APIs, authentication systems, reusable backend utilities, and real-time infrastructures using Node.js and MongoDB.
 
 ### 🧠 TaskFlow
-Real-time project management platform built using ASP.NET Core, SignalR, SQL Server, and Next.js.
+Real-time project management platform built using Node.js, Express.js, MongoDB, WebSockets, and Next.js.
 
 ---
 
