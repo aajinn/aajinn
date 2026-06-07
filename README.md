@@ -6,21 +6,22 @@
     width="100%"
   />
 </p>
-
 <div align="center">
-
-# Building products, not tutorial projects.
-
+  <b>
+careerajin@gmail.com
+    </b>
+</div>
+  <br/>
+<div>
 Full Stack Engineer focused on scalable backend systems, modern frontend experiences, real-time applications, browser extensions, and AI-powered tools.
-
-Most developers stay stuck consuming tutorials.  
+  <br/>
 I learn by shipping products publicly, solving actual problems, and improving through iteration.
 
 </div>
 
 ---
 
-# ⚡ Engineering Profile
+# Profile
 
 ```bash
 Name        :: Ajin Varghese Chandy
@@ -30,8 +31,8 @@ Focus       :: Real-world scalable products
 Speciality  :: Backend architecture & rapid product execution
 ```
 
-🌐 Connect
+Connect
+<p align="center">  <b>
+careerajin@gmail.com
+    </b>
 <p align="center"> <a href="https://www.ared.dev"> <img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" /> </a> <a href="https://github.com/aajinn"> <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" /> </a> </p>
-🐍 Contribution Snake
-<p align="center"> <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" /> </p>
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=120&section=footer" width="100%" /> </p> 
