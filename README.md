@@ -35,4 +35,4 @@ Connect
 <p align="center">  <b>
 careerajin@gmail.com
     </b>
-<p align="center"> <a href="https://www.ared.dev"> <img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" /> </a> <a href="https://github.com/aajinn"> <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" /> </a> </p>
+<p align="center"> <a href="https://ajin-varghese.vercel.app/"> <img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" /> </a> <a href="https://github.com/aajinn"> <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" /> </a> </p>
